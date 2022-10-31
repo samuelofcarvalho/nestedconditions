@@ -1,0 +1,39 @@
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: default;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h1 {
+    font-size: 16pt;
+}
+
+/*Divs*/
+.main {
+    position:absolute;
+    align-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*---------------------------------*/
+
+input[type="number"] {
+    background-color: rgb(208, 207, 207);
+}
+
+input[type="number"]:focus {
+    background-color: aliceblue;
+}
+
+
+
